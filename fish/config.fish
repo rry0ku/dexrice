@@ -42,9 +42,12 @@ alias cdv='cd ~/veluna/'
 alias cdf='cd ~/fedora-configs/'
 alias cdx='cd ~/dexrice/'
 alias dex='nvim ~/dexrice/install.sh'
+alias learn='xdg-open 'https://www.youtube.com/playlist?list=PLG49S3nxzAnl_tQe3kvnmeMid0mjF8Le8''
 alias cdp='cd ~/python-notes/'
 alias dotv='cd ~/.config/nvim/'
 alias vt='nvim ~/.config/tmux/tmux.conf'
 alias dott='cd ~/.config/tmux/'
 alias vk='nvim ~/.config/kitty/kitty.conf'
 alias dotk='cd ~/.config/kitty/'
+
+fish_add_path /home/dex/.local/bin
