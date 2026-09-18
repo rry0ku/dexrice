@@ -19,7 +19,7 @@ config.window_padding = {
 }
 
 -- Transparency
--- config.window_background_opacity = 0.8
+-- config.window_background_opacity = 0.7
 
 -- Key bindings
 config.window_close_confirmation = "NeverPrompt"
@@ -31,6 +31,12 @@ config.keys = {
 		action = wezterm.action.SplitHorizontal({
 			domain = "CurrentPaneDomain",
 		}),
+	},
+
+	{
+		key = "v",
+		mods = "CTRL|SHIFT",
+		action = wezterm.action.PasteFrom("Clipboard"),
 	},
 
 	-- CTRL + SHIFT + D = Split vertically
