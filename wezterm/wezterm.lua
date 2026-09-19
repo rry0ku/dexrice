@@ -11,12 +11,12 @@ config.window_decorations = "RESIZE"
 config.enable_tab_bar = false
 
 -- Window padding
-config.window_padding = {
-	left = 20,
-	right = 20,
-	top = 20,
-	bottom = 10,
-}
+-- config.window_padding = {
+-- 	left = 20,
+-- 	right = 20,
+-- 	top = 20,
+-- 	bottom = 10,
+-- }
 
 -- Transparency
 -- config.window_background_opacity = 0.7
@@ -31,12 +31,6 @@ config.keys = {
 		action = wezterm.action.SplitHorizontal({
 			domain = "CurrentPaneDomain",
 		}),
-	},
-
-	{
-		key = "v",
-		mods = "CTRL|SHIFT",
-		action = wezterm.action.PasteFrom("Clipboard"),
 	},
 
 	-- CTRL + SHIFT + D = Split vertically
